@@ -14,12 +14,10 @@
     "test:6": "./node_modules/.bin/jest src/__tests__/6.flowControls.js",
     "test:7": "./node_modules/.bin/jest src/__tests__/7.equality.js"
   },
-  "dependencies": {
-    "@types/jest": "^27.4.0",
-    "jest": "^27.4.7"
-  },
   "devDependencies": {
+    "@types/jest": "^27.4.0",
     "eslint": "^7.26.0",
+    "jest": "^27.4.7",
     "line-replace": "^2.0.1",
     "simple-git": "^3.7.1"
   }
