@@ -2,10 +2,10 @@ JS Exercise
 ===================================
 ![Assignment Checks](https://github.com/IT3049C/2.JS-Exercise/workflows/Assignment%20Checks/badge.svg)
 
-Instructions to this assignment can be found [here](https://it3049c.github.io/Material/Assignments/2.JavaScript_Exercises/).
+Instructions to this assignment can be found [here](https://reedws.github.io/IT3049C/coursework/assignments/js-exercises/).
 
 ## Checklist:
-- [x] update the assignment checks above to the correct link. - Done Automatically
+- [ ] update the assignment checks above to the correct link
 ```md
 - [x] This task is complete.
 ```
