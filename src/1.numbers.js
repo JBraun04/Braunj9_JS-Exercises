@@ -1,6 +1,6 @@
 //add: Should be able to add numbers
 function add (num1, num2) {
-  return ;
+  return Math.sum([num1, num2]);
 }
 
 //subtract: Should be able to subtract numbers
@@ -15,7 +15,7 @@ function multiply(num1, num2) {
 
 //parseInt: should use parseInt correctly to convert strings to integer numbers
 function parseInt (str) {
-  return ;
+  return  Number.parseInt(str, 10);
 }
 
 //addAndReturn2DecimalPlaces: should return a number value, rounded to 2 decimal places
