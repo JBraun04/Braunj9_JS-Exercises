@@ -12,19 +12,20 @@ function indexOf(arr, item) {
 // Sum: you should be able to sum the items of an array
 // Example: arr = [1,2,3]   =>  6
 function sum(arr) {
-  return ;
+  return arr.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 }
+
 
 // Filter: Should filter out all instances of a value from an array
 // Example: filtering 2 out of [1,2,3,5,6,2,4,2] should return [1,3,5,6,4]
 function filterOut(arr, item) {
-  return ;
+  return arr.filter(value => value !== item)
 }
 
 // Append: you should be able to add an item to the end of an array
 function append(arr, item) {
 
-  return ;
+  return;
 }
 
 // Truncate: you should be able to remove the last item of an array
