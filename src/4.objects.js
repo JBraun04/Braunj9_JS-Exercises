@@ -10,6 +10,19 @@
  */
 const personObject = {
 
+first_name: "Jack",
+last_name: "Braun",
+class_of: 2027,
+
+full_name: function()
+{
+  return this.first_name + " "  + this.last_name;
+},
+
+introduction: function()
+{
+  return ("Hello! I am " + this.full_name() + " and I am a part of the UC class of " + this.class_of);
+}
 };
 
 module.exports = {
